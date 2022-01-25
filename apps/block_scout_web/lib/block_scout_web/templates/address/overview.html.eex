@@ -166,7 +166,7 @@
               text: gettext("Address balance in xDAI (doesn't include ERC20, ERC721, ERC1155 tokens).") %>
               <%= gettext("Balance") %>
             </dt>
-            <dd class="col-sm-8 col-md-8 col-lg-9" data-test="address_balance">
+            <dd class="col-sm-8 col-md-8 col-lg-9 address_balance" data-test="address_balance">
               <%= balance(@address) %>
               <%= if !match?({:pending, _}, @coin_balance_status) && !empty_exchange_rate?(@exchange_rate) do %>
                 <% usd_value = to_string(@exchange_rate.usd_value) %>
@@ -278,7 +278,7 @@
                 <%= link(
                     @address.fetched_coin_balance_block_number,
                     to: block_path(@conn, :show, @address.fetched_coin_balance_block_number),
-                    class: "tile-title-lg"
+                    class: "tile-title-lg black"
                 ) %>
               </dd>
             </dl>

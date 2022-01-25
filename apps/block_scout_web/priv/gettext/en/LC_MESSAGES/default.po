@@ -428,12 +428,12 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr ""
+msgstr "Bridging blockchain with the physical world."
 
 #, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_top.html.eex:45
 msgid "Bridge STAKE to Ethereum"
-msgstr ""
+msgstr "Bridge STAKE to EKTA"
 
 #, elixir-format
 #: lib/block_scout_web/templates/bridged_tokens/index.html.eex:7
@@ -448,7 +448,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:78
 msgid "Bridged from Ethereum"
-msgstr ""
+msgstr "Bridged from EKTA"
 
 #, elixir-format
 #: lib/block_scout_web/templates/block/_tile.html.eex:64
@@ -1020,12 +1020,12 @@ msgstr ""
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:93 lib/block_scout_web/templates/smart_contract/_functions.html.eex:93
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:133
 msgid "ETH"
-msgstr ""
+msgstr "EKTA"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
 msgid "ETH RPC API Documentation"
-msgstr ""
+msgstr "EKTA RPC API Documentation"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:76
@@ -1102,7 +1102,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:138
 msgid "Eth RPC"
-msgstr ""
+msgstr "EKTA RPC"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_balance_card.html.eex:18
@@ -1113,7 +1113,7 @@ msgstr ""
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:37 lib/block_scout_web/templates/transaction/overview.html.eex:411
 #: lib/block_scout_web/views/wei_helpers.ex:78
 msgid "Ether"
-msgstr ""
+msgstr "EKTA"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:211
@@ -2464,12 +2464,12 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/index.html.eex:6
 msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
-msgstr ""
+msgstr "This API is provided for developers transitioning their applications from EKTAScan to BlockScout. It supports GET and POST requests."
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:7
 msgid "This API is provided to support some rpc methods in the exact format specified for ethereum nodes, which can be found "
-msgstr ""
+msgstr "This API is provided to support some rpc methods in the exact format specified for EKTA nodes, which can be found "
 
 #, elixir-format
 #: lib/block_scout_web/views/block_transaction_view.ex:11
