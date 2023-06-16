@@ -4,6 +4,8 @@
 
 ### Features
 
+- [#7771](https://github.com/blockscout/blockscout/pull/7771) - CSV export: speed up
+
 ### Fixes
 
 - [#7758](https://github.com/blockscout/blockscout/pull/7758) - Remove limit for configurable fetchers
