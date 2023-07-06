@@ -25,6 +25,9 @@ defmodule Indexer.Supervisor do
     InternalTransaction,
     PendingBlockOperationsSanitizer,
     PendingTransaction,
+    PolygonSupernet,
+    PolygonSupernetWithdrawal,
+    PolygonSupernetWithdrawalExit,
     ReplacedTransaction,
     Token,
     TokenBalance,
@@ -124,6 +127,7 @@ defmodule Indexer.Supervisor do
         {PolygonSupernet.Supervisor, [[memory_monitor: memory_monitor]]},
         {PolygonSupernetWithdrawal.Supervisor,
          [[memory_monitor: memory_monitor, json_rpc_named_arguments: json_rpc_named_arguments]]},
+        {PolygonSupernetWithdrawalExit.Supervisor, [[memory_monitor: memory_monitor]]},
 
         # Out-of-band fetchers
         {EmptyBlocksSanitizer.Supervisor, [[json_rpc_named_arguments: json_rpc_named_arguments]]},
